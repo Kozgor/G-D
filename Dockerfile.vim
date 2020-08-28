@@ -1,6 +1,6 @@
 FROM python:latest
 
-MAINTAINER macnaer
+MAINTAINER kozgor
 
 WORKDIR /var/www
 COPY  . /var/www
