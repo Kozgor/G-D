@@ -3,6 +3,7 @@ FROM python:latest
 MAINTAINER kozgor
 
 WORKDIR /var/www
+
 COPY  . /var/www
 
 RUN pip install -r requirements.txt
